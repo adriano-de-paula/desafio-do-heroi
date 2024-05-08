@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="assets/js/script.js"></script>
+    <title>Classificador de Nível de Herói</title>
+</head>
+<body>
+    <main id="container">
+        <section id="hero">
+            <form id="form">
+                <h1 id="title">Classificador de Nível de Herói</h1>
+                <div class="input-box">
+                    <label for="name">Nome do Herói</label>
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <input type="text" id="name-hero" required>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <label for="level">Experiência (XP)</label>
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-star"></i>
+                        <input type="number" id="level-hero" required>
+                    </div>
+                </div>
+
+                <button id="rank">Classificar</button>
+            </form>
+
+            <div id="info" class="hidden">
+                <div id="result">
+                    <div id="description">
+                        <span id="value"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="img">
+            <img src="assets/img/heros.png" alt="Grupo de Heróis">
+        </section>
+    </main>
+</body>
+</html>
