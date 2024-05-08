@@ -1,4 +1,4 @@
-# 1️⃣ Desafio do DIO proposto pelo Felipão: Classificador de nível de Herói
+# 1️⃣ Desafio da DIO proposto pelo Felipão: Classificador de nível de Herói
 
 **O Que deve ser utilizado**
 
